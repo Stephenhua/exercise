@@ -25,10 +25,7 @@ double & Student ::operator[](int i)
 	return scores[i];
 }
 
-double& Student::operator[](int i) 
-{
-	return scores[i];
-}
+
 
 double Student::operator[](int i) const
 {

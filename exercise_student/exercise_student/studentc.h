@@ -7,7 +7,7 @@ using namespace std;
 class Student
 {
 private:
-	typedef std::valarray<double> ArrayDb£»
+	typedef std::valarray<double> ArrayDb;
 	std::string name;
 	ArrayDb scores;
 
@@ -16,8 +16,8 @@ private:
 
 public:
 	Student() :name("NULL student"), scores() {}
-	explict Student(const std::string & s) : name(s), scores(){}
-	explict Student(int n) : name("Nully"), scores(n){}
+	explicit Student(const std::string & s) : name(s), scores(){}
+	explicit Student(int n) : name("Nully"), scores(n){}
 	Student(const std::string &s, const ArrayDb &a) :name(s), scores(){}
 	Student(const char * str, const double * pd, int n) :name(str), scores(pd, n){}
 	~Student(){};
@@ -25,7 +25,7 @@ public:
 	double Average() const;
 	const std::string &Name() const;
 	double &operator[](int i);
-	double &operator[](int i) const;
+	double operator[](int i) const;
 
 	friend std::istream& operator>>(std::istream& is, Student &stu);
 	friend std::istream& getline(std::istream& is, Student & stu);
