@@ -1,0 +1,14 @@
+﻿生成启动时间为 2018/12/1 20:12:24。
+     1>项目“E:\C++code\QT\demo\demo\demo.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         C:\vs2013\VC\bin\CL.exe /c /I.\GeneratedFiles /I. /IF:\Qt\Qt5.6.0\5.6\msvc2013\include /I.\GeneratedFiles\Debug /IF:\Qt\Qt5.6.0\5.6\msvc2013\include\QtCore /IF:\Qt\Qt5.6.0\5.6\msvc2013\include\QtGui /IF:\Qt\Qt5.6.0\5.6\msvc2013\include\QtOpenGL /IF:\Qt\Qt5.6.0\5.6\msvc2013\include\QtWidgets /Zi /nologo /W1 /WX- /Od /Oy- /D UNICODE /D WIN32 /D WIN64 /D QT_DLL /D QT_CORE_LIB /D QT_GUI_LIB /D QT_OPENGL_LIB /D QT_WIDGETS_LIB /Gm- /EHsc /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt GeneratedFiles\Debug\moc_opengl.cpp opengl.cpp
+         moc_opengl.cpp
+     1>e:\c++code\qt\demo\demo\generatedfiles\debug\../../opengl.h(4): fatal error C1083: 无法打开包括文件: “QGLWdiget”: No such file or directory
+         opengl.cpp
+     1>e:\c++code\qt\demo\demo\opengl.h(4): fatal error C1083: 无法打开包括文件: “QGLWdiget”: No such file or directory
+         正在生成代码...
+     1>已完成生成项目“E:\C++code\QT\demo\demo\demo.vcxproj”(Build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:00.57
