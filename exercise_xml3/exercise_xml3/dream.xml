@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<!-- 注释节点-->
+ 
+<PLAY>
+ 
+<SPEECH>
+<SPEAKER  id="1" name="speakattr">text node</SPEAKER>
+<LINE>What, dead, my dove?</LINE>
+<LINE>Speak, speak. Quite dumb?</LINE>
+</SPEECH>
+ 
+<SPEECH2>
+<SPEAKER id="2" name="speaker2">PUCK</SPEAKER>
+<LINE>So, good night unto you all.</LINE>
+</SPEECH2>
+ 
+</PLAY>
